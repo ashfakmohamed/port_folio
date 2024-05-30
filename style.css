@@ -44,6 +44,13 @@ p span.stop-blinking::before {
 @keyframes blink {
   50% { opacity: 0 }
 }
+
+.highlight {
+  color: black;
+  font-weight: bold;
+}
+
+
 /* TRANSITION */
 
 a,
