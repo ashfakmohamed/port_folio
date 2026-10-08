@@ -24,7 +24,7 @@ export default function Footer() {
           <a className="back-to-top" href="#home" aria-label="Back to top"><ArrowUp size={20} /></a>
         </div>
         <div className="footer-bottom">
-          <p>© {new Date().getFullYear()} Mohamed Ashfak · Built with React &amp; Vite</p>
+          <p>© {new Date().getFullYear()} Mohamed Ashfak</p>
           <div>
             <a href={personal.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn"><Linkedin size={17} /></a>
             {personal.github && <a href={personal.github} target="_blank" rel="noreferrer" aria-label="GitHub"><Github size={17} /></a>}
