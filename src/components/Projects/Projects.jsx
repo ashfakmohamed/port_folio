@@ -1,4 +1,4 @@
-import { AudioLines, BarChart3, DatabaseZap, Workflow } from "lucide-react";
+import { ArrowUpRight, AudioLines, BarChart3, DatabaseZap, Github, Workflow } from "lucide-react";
 import { projects } from "../../data";
 import { Badge, Reveal, SectionHeader } from "../UI";
 
@@ -31,6 +31,11 @@ export default function Projects() {
                 <p className="project-description">{project.desc}</p>
                 <div className="project-impact"><span>Impact</span><p>{project.impact}</p></div>
                 <div className="project-architecture"><span>Architecture</span><p>{project.architecture}</p></div>
+                {project.repo && (
+                  <a className="button project-repo-link" href={project.repo} target="_blank" rel="noreferrer">
+                    <Github size={17} /> {project.repoLabel || "View repository"} <ArrowUpRight size={16} />
+                  </a>
+                )}
               </div>
               <div className="project-details">
                 <span className="detail-label">Key capabilities</span>

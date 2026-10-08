@@ -6,7 +6,7 @@ export const personal = {
   phone:    "+91 8525883729",
   location: "Chennai, Tamil Nadu",
   linkedin: "https://linkedin.com/in/mohamed-ashfak/",
-  github:   "",
+  github:   "https://github.com/ashfakmohamed",
 };
 
 export const stats = [
@@ -71,6 +71,8 @@ export const projects = [
     desc:"Real-time AI-powered voice agent system handling enterprise inbound/outbound calls with multi-turn NLU, RAG-powered knowledge retrieval, and automated decision routing.",
     impact:"Sub-second LLM response latency for live enterprise call sessions at scale.",
     architecture:"Django · LiveKit · Twilio SIP · ChromaDB · Gemini LLM · AWS S3",
+    repo:"https://github.com/ashfakmohamed/voice-agent-orchestrator",
+    repoLabel:"View public reference implementation",
     stack:["Python","Django","PostgreSQL","Gemini LLM","LiveKit","Twilio","LangChain","ChromaDB","AWS S3","Pytest"],
     features:[
       "Multi-turn AI with intent classification, slot filling & entity extraction",
@@ -86,6 +88,8 @@ export const projects = [
     desc:"High-volume backend pipeline with intelligent document automation, PDF invoice generation, parsing, and real-time Plotly analytics dashboards.",
     impact:"Processes thousands of business records daily with fully automated reporting.",
     architecture:"Django · PostgreSQL · Docker · CI/CD · React.js · Plotly",
+    repo:"https://github.com/ashfakmohamed/invoice-automation-api",
+    repoLabel:"View invoice automation API",
     stack:["Python","Django","PostgreSQL","Pandas","PyPDF2","pdfkit","Docker","CI/CD","React.js"],
     features:[
       "JSON/XML parsing and transformation for structured business data",
